@@ -36,7 +36,7 @@ def create():
     input_shape = get_input_shape()
 
     model = Sequential([
-        Dense(units=64, activation=relu, input_shape=input_shape),
+        Dense(units=1, activation=relu, input_shape=input_shape),
         Dense(units=10, activation=softmax)
     ])
 
