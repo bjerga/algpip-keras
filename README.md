@@ -12,7 +12,7 @@
 5. Kjør kode: `pipenv run main.py`
 
 #### Dokumentasjon
-Keras API-et: https://keras.io/
+Keras API-et: https://keras.io/  
 Nevrale nettverk: http://cs231n.github.io/
 
 #### For den eventyrlystne
