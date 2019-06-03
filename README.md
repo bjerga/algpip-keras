@@ -1,20 +1,18 @@
-download and install python3
-https://www.python.org/downloads/release/python-373/
+#### For å komme i gang
+1. Last ned og installer [Python 3](https://www.python.org/downloads/release/python-373/)
 
-install pipenv (https://docs.pipenv.org/en/latest/install/#installing-pipenv)
-pip install --user pipenv
+2. Installer [Pipenv](https://docs.pipenv.org/en/latest/install/#installing-pipenv)
+    - For Mac og Linux: Se [denne](https://docs.pipenv.org/en/latest/install/#homebrew-installation-of-pipenv)
+    - For Windows: Kjør `pip install --user pipenv` og oppdater PATH (se [denne](https://docs.pipenv.org/en/latest/install/#pragmatic-installation-of-pipenv))
 
-install tensorflow (https://www.tensorflow.org/install/pip)
-cd <project-folder>
-pipenv install tensorflow
+3. Klon repoet
 
-install keras (https://keras.io/#installation)
-cd <project-folder>
-pipenv install keras
+4. Installer dependencies: `cd <project-folder> && pipenv install`
 
-install numpy
+5. Kjør kode: `pipenv run main.py`
 
-For den eventyrlystne:
+#### For den eventyrlystne
+Dette er man kan se litt på selv, evt. spørre om hvis man ønsker å lage mer avanserte nettverk:
 - Bias
 - Keras-lag:
     - Conv2D
@@ -23,7 +21,5 @@ For den eventyrlystne:
     - Dropout
 - Transfer learning
 
-
-Hvor kan man finne datasett? 
-- https://www.analyticsvidhya.com/blog/2018/03/comprehensive-collection-deep-learning-datasets/
-- https://skymind.ai/wiki/open-datasets
+#### Hvor kan man finne datasett hvis man vil leke mer? 
+Sjekk [analyticsvidhya](https://www.analyticsvidhya.com/blog/2018/03/comprehensive-collection-deep-learning-datasets/) eller [skymind](https://skymind.ai/wiki/open-datasets)
